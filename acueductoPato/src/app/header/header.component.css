@@ -272,14 +272,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-    color: #000;
+    color: white;
 }
 
 .navigation.navbar-dark .navbar-nav .active>.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
-    color: #000;
+    color: whitesmoke;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -839,8 +839,7 @@ ul.cont li {
     z-index:100;
       border-radius:50%;
   }
-  .ares.tparrows:hover {
-  }
+ 
   .ares.tparrows:before {
     font-family: "revicons";
     font-size:25px;
@@ -920,8 +919,7 @@ ul.cont li {
   }
   
   /* BULLETS */
-  .ares.tp-bullets {
-  }
+ 
   .ares.tp-bullets:before {
       content:" ";
       position:absolute;
@@ -1009,7 +1007,7 @@ ul.cont li {
     height:60px; max-height:100%; max-width:100%;
     position:relative;
     display:inline-block;
-    float:left;
+  
   
   }
   .ares .tp-tab-content 
@@ -1049,8 +1047,7 @@ ul.cont li {
       background:#eee; 
   }
   
-  .ares .tp-tab-mask {
-  }
+
   
   /* MEDIA QUERIES */
   @media only screen and (max-width: 960px) {
@@ -1102,8 +1099,7 @@ ul.cont li {
   
   
   /* BULLETS */
-  .custom.tp-bullets {
-  }
+ 
   .custom.tp-bullets:before {
       content:" ";
       position:absolute;
@@ -1127,10 +1123,7 @@ ul.cont li {
   .custom .tp-bullet.selected {
       background:rgb(125,125,125);
   }
-  .custom .tp-bullet-image {
-  }
-  .custom .tp-bullet-title {
-  }
+
   
   
   /* THUMBS */
@@ -1389,7 +1382,7 @@ ul.cont li {
    .erinyen.tp-rightarrow .tp-title-wrap { 
      right:0px;
      margin-right:0px;margin-left:0px;
-     -webkit-transform-origin:100% 50%;
+
     border-radius:35px;
     padding-right:20px;
     padding-left:10px;
@@ -1449,8 +1442,7 @@ ul.cont li {
   }
   
   /* BULLETS */
-  .erinyen.tp-bullets {
-  }
+  
   .erinyen.tp-bullets:before {
       content:" ";
       position:absolute;
@@ -1492,10 +1484,7 @@ ul.cont li {
     border:1px solid #555;
     width:12px;height:12px;
   }
-  .erinyen .tp-bullet-image {
-  }
-  .erinyen .tp-bullet-title {
-  }
+ 
   
   
   /* THUMBS */
@@ -1746,7 +1735,7 @@ ul.cont li {
     height:60px; max-height:100%; max-width:100%;
     position:relative;
     display:inline-block;
-    float: left;
+  
   
   }
   .gyges .tp-tab-content 
@@ -2062,8 +2051,7 @@ ul.cont li {
     display:block;
     z-index:1000;
   }
-  .hebe.tparrows:hover {
-  }
+ 
   .hebe.tparrows:before {
     font-family: "revicons";
     font-size:30px;
@@ -2108,7 +2096,7 @@ ul.cont li {
   }
    .hebe.tp-rightarrow .tp-title-wrap { 
      right:0px;
-     -webkit-transform-origin:100% 50%;
+     
    }
   .hebe.tparrows:hover .tp-title-wrap {
     transform:scaleX(1);
@@ -2151,9 +2139,7 @@ ul.cont li {
           right:auto;left:-90px;
         }
   
-  /* BULLETS */
-  .hebe.tp-bullets {
-  }
+
   .hebe.tp-bullets:before {
     content:" ";
     position:absolute;
@@ -2215,8 +2201,7 @@ ul.cont li {
     -webkit-transform: scale(1);
     visibility:visible;
       }
-  .hebe .tp-bullet-title {
-  }
+ 
   
   
   /* TABS */
@@ -2284,8 +2269,7 @@ ul.cont li {
   
   
   /* BULLETS */
-  .hephaistos.tp-bullets {
-  }
+  
   .hephaistos.tp-bullets:before {
       content:" ";
       position:absolute;
@@ -2313,10 +2297,7 @@ ul.cont li {
       background:#fff;
       border-color:#000;
   }
-  .hephaistos .tp-bullet-image {
-  }
-  .hephaistos .tp-bullet-title {
-  }
+ 
   
   
   /*-----------------------------------------------------------------------------
@@ -2436,8 +2417,7 @@ ul.cont li {
   
   
   /* BULLETS */
-  .hermes.tp-bullets {
-  }
+ 
   
   .hermes .tp-bullet {
       overflow:hidden;
@@ -2585,8 +2565,7 @@ ul.cont li {
   }
   
   /* BULLETS */
-  .hesperiden.tp-bullets {
-  }
+  
   .hesperiden.tp-bullets:before {
       content:" ";
       position:absolute;
@@ -2622,10 +2601,7 @@ ul.cont li {
   .hesperiden .tp-bullet.selected {
       background:#666;
   }
-  .hesperiden .tp-bullet-image {
-  }
-  .hesperiden .tp-bullet-title {
-  }
+ 
   
   
   /* THUMBS */
@@ -2678,7 +2654,7 @@ ul.cont li {
     height:60px; max-height:100%; max-width:100%;
     position:relative;
     display:inline-block;
-    float:left;
+    
   
   }
   .hesperiden .tp-tab-content 
@@ -2718,9 +2694,7 @@ ul.cont li {
       background:#eee; 
   }
   
-  .hesperiden .tp-tab-mask {
-  }
-  
+ 
   /* MEDIA QUERIES */
   @media only screen and (max-width: 960px) {
   

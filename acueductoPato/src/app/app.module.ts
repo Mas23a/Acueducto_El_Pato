@@ -7,6 +7,7 @@ import { PrincipalComponent } from './principal/principal.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { CuerpoComponent } from './cuerpo/cuerpo.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes=[
@@ -18,7 +19,8 @@ const routes: Routes=[
     AppComponent,
     PrincipalComponent,
     HeaderComponent,
-    CuerpoComponent
+    CuerpoComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
