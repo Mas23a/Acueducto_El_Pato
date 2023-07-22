@@ -1,0 +1,30 @@
+.fondo1{
+    padding-top: 59px;
+    background-size: 100%;
+    
+    
+    
+}
+
+.relative {
+    
+    top: 50%;
+    transform: translateY(-44%);
+    padding: 0;
+    bottom: auto;
+}
+
+.documento{
+    color: rgb(252, 252, 247);
+    padding-top: 20px;
+    
+}
+
+.fondo{
+    background: #30c090;
+    text-align: center;
+}
+
+.imagen{
+    opacity: 60%;
+}
