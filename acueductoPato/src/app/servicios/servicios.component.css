@@ -1,0 +1,15 @@
+.fondo1{
+    padding-top: 59px;
+    background-size: 100%;
+    
+    
+    
+}
+
+.relative {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-44%);
+    padding: 0;
+    bottom: auto;
+}

@@ -9,12 +9,14 @@ import { HeaderComponent } from './header/header.component';
 import { CuerpoComponent } from './cuerpo/cuerpo.component';
 import { FooterComponent } from './footer/footer.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
+import { ServiciosComponent } from './servicios/servicios.component';
 
 
 const routes: Routes=[
   {path: '', redirectTo:'/principal', pathMatch:'full'},
   {path: 'principal', component:PrincipalComponent},
-  {path: 'nosotros', component:NosotrosComponent}
+  {path: 'nosotros', component:NosotrosComponent},
+  {path: 'servicios', component:ServiciosComponent},
 ]
 @NgModule({
   declarations: [
@@ -23,7 +25,8 @@ const routes: Routes=[
     HeaderComponent,
     CuerpoComponent,
     FooterComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    ServiciosComponent
   ],
   imports: [
     BrowserModule,
