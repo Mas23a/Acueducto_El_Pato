@@ -13,7 +13,8 @@ import { NosotrosComponent } from './nosotros/nosotros.component';
 
 const routes: Routes=[
   {path: '', redirectTo:'/principal', pathMatch:'full'},
-  {path: 'principal', component:PrincipalComponent}
+  {path: 'principal', component:PrincipalComponent},
+  {path: 'nosotros', component:NosotrosComponent}
 ]
 @NgModule({
   declarations: [
