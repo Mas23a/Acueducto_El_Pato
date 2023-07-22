@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NosotrosComponent } from './nosotros/nosotros.component';
 import { ServiciosComponent } from './servicios/servicios.component';
 import { FinancieroComponent } from './financiero/financiero.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 
 const routes: Routes=[
@@ -18,7 +19,8 @@ const routes: Routes=[
   {path: 'principal', component:PrincipalComponent},
   {path: 'nosotros', component:NosotrosComponent},
   {path: 'servicios', component:ServiciosComponent},
-  {path: 'financiero', component:FinancieroComponent}
+  {path: 'financiero', component:FinancieroComponent},
+  {path: 'contacto', component:ContactoComponent}
 ]
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ const routes: Routes=[
     FooterComponent,
     NosotrosComponent,
     ServiciosComponent,
-    FinancieroComponent
+    FinancieroComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
