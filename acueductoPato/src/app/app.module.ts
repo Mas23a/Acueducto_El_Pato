@@ -8,6 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HeaderComponent } from './header/header.component';
 import { CuerpoComponent } from './cuerpo/cuerpo.component';
 import { FooterComponent } from './footer/footer.component';
+import { NosotrosComponent } from './nosotros/nosotros.component';
 
 
 const routes: Routes=[
@@ -20,7 +21,8 @@ const routes: Routes=[
     PrincipalComponent,
     HeaderComponent,
     CuerpoComponent,
-    FooterComponent
+    FooterComponent,
+    NosotrosComponent
   ],
   imports: [
     BrowserModule,
