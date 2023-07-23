@@ -1,4 +1,4 @@
---------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+---------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
 * {
     box-sizing: border-box !important;
@@ -290,7 +290,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
     height: 98px;
     margin-top: -20px;
     text-align: center;
-    padding-right: 5%;
+    padding-right: 10%;
     
     
     
@@ -303,17 +303,13 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 .header_information {
     background-color: #00aeef;
-    padding: 0 0;
-    padding-top: 0px;
-    padding-top: 0px;
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    position: absolute;
-    width: 61%;
-    height: 98px;
-    margin-top: -20px;
-    right: 115px;
+    
+    
+   
+  
+ 
+   
+    
 }
 
 .header_information::before {
@@ -371,7 +367,7 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
 
 .copyright2 {
     
-  padding: 20px 0px;
+  padding: 30px ;
   background-color: #00aeef;
 }
 
@@ -381,4 +377,10 @@ article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, s
   font-weight: 300;
   line-height: 22px;
   text-align: center;
+}
+
+.titulo{
+    background-color: #38c8a8;
+    padding: 10px ;
+    text-align: center;
 }
